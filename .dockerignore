@@ -1,0 +1,3 @@
+# Ignore target but allow JAR files
+target/
+!target/*.jar
