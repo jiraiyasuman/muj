@@ -15,11 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("mujunityfest")
 public class MyController {
 
-	@GetMapping("home")
-	public String home() {
-		log.info("redirecting to the home page");
-		return "index";
-	}
+	
 	@GetMapping("contact")
 	public String contact() {
 		log.info("redirecting to the contact page");
